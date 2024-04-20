@@ -1,0 +1,1622 @@
+@import url("./font.css");
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1160px;
+    margin: auto;
+}
+ body{
+    box-sizing: border-box;
+    background: linear-gradient(to right,#f0f3f5 30%, #e6ebf0 70%) ;
+    overflow-x: hidden;
+ }
+h2{
+    font-size: 42px;
+    font-family: "Manrope-SemiBold";
+ }
+ .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .navigation .section{
+    display: flex;
+    flex-direction: row;
+ }
+ .navigation .section a{
+    margin-right: 40px;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    transition: 3s;
+ }
+ .navigation .section .gaid{
+    margin-right: 0px;
+ }
+ .navigation .section a:hover{
+    color: #3586ff;
+    transition: 1s;
+ }
+ .navigation .icons{
+    display: flex;
+    flex-direction: row;
+ }
+ .navigation .icons .icon{
+    border-radius: 100px;
+    background-color:#fff;
+    padding: 10px;
+    margin-left: 20px;
+ }
+ .fitness_platform{
+    display: flex;
+ }
+ .fitness_platform .text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+ }
+ .fitness_platform .text h1{
+    font-size: 52px;
+    font-family: "Manrope-Bold";
+ }
+ .fitness_platform .text h5{
+    margin-top: 10px;
+    font-family: "Manrope-Regular";
+    font-size: 18px;
+ }
+ .fitness_platform .picture{
+    padding-top: 125px;
+ }
+ button{                          
+    background-color: #3586ff;
+    font-family: "Manrope-SemiBold";
+    width: 255px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+    transition: 5s;
+ }
+ button:hover{                          
+    background-color: #204a88;
+    transition: 3s;
+ }
+ .outlinekk{
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    padding: 3px;
+    color: white;
+    outline: 1px solid  #3586ff;
+    border-radius: 10px;
+    margin-top: 50px;
+ }
+ .coirse_selection .heading {
+    display: flex;
+    justify-content: center;
+ }
+  .coirse_selection .choice{
+    text-align: center;
+  }
+  .coirse_selection{
+    margin-top: 150px;
+  }
+.slider{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider .kinds{
+    border-radius: 10px;
+    width: 360px;
+    height: 300px;
+    background-color: #f1f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slider .kinds h5{
+    font-family: "Manrope-SemiBold";
+    font-size: 22px;
+}
+.button-look{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .outlinekk{
+    margin-top: 60px;
+}
+.free-training{
+    margin-top: 150px;
+}
+.free-training .free{
+    background: url(./img/5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.free-training .text{
+    width: 650px;
+    padding: 155px 0 120px 75px;
+}
+.free-training .text h5{
+    margin-top: 20px;
+    font-family: "Manrope-Regular";
+    font-size: 18px;
+}
+.online-course{
+    margin-top: 150px;
+}
+.course{
+    display: flex;
+    flex-direction: row;
+}
+.course .stretching{
+    margin-left: 40px;
+}
+.course .stretching h5{
+    font-size: 16px;
+    font-family: "Manrope-SemiBold";
+}
+.course .stretching h6{
+    font-size: 18px;
+    font-family: "Manrope-Regular";
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.information p{
+    font-family: "Manrope-SemiBold";
+    font-size: 14px;
+}
+.online-course .picture img{
+    border-radius: 20px;
+}
+.information .inf{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 15px;
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f1f4f8;
+}
+.information .inf .estimation{
+    display: flex;
+    flex-direction: row;
+}
+.information .inf img{
+    width: 15px;
+    height: 15px;
+}
+.information .inf1 img{
+    margin-right: 5px;
+}
+.stretching .purchase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.stretching .purchase h2{
+    margin-top: 40px;
+}
+.sliders{
+    margin-top: 80px;
+}
+#inp1:checked ~  #button1,
+#inp2:checked ~  #button2,
+#inp3:checked ~  #button3{
+    background-color: #3586ff;
+    color: #fff;
+    padding: 12px 10px;
+    margin-right: 30px;
+    width: 155px;
+    font-family: "Manrope-SemiBold";
+    font-size: 16px;
+}
+.sliders input{
+    display: none;
+}
+.sliders button{
+    color: black ;
+    background-color: #f1f4f8;
+}
+.perecluchenie{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.text_img_block{
+    display: flex;
+    flex-direction: row;
+    transition: 1s;
+    font-size: 16px;
+    font-family: "Manrope-Regular";
+    margin: 45px 0 150px 0;
+}
+.text_img_block .coaches h6{
+    font-family: "Manrope-SemiBold";
+    font-size: 16px;
+}
+.text_img_block .coaches p{
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+}
+.text_img_block .coaches{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 260px;
+    height: 275px;
+    border-radius: 10px;
+    background-color: #f1f4f8;
+    margin-left: 40px;
+}
+.text_img_block .coaches .img{
+    width: 110px;
+    height: 190px;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-size: 100% 130%;
+    margin: 15px auto;
+}
+.text_img_block .coaches .img1{
+    background: url(./img/7.png);
+}
+.text_img_block .coaches .img2{
+    background: url(./img/8.png);
+    width: 165px;
+}
+.text_img_block .coaches .img3{
+    background: url(./img/9.png);
+    width: 190px;
+}
+.text_img_block p{ 
+    width: 230px;
+}
+.text_img_block .trainers{
+    display: flex;
+    flex-direction: row;
+}
+#inp1:checked ~.perecluchenie .text_img_block{
+    transition: 1s;
+    transform: translateX(0);
+}
+#inp2:checked ~.perecluchenie .text_img_block{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#inp3:checked ~.perecluchenie .text_img_block{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+.platform_fitline{
+    background: linear-gradient(to right,#e6ebf0 30%, #f0f3f5 70%) ;
+}
+.platform_fitline .definition{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 155px 0 145px 0;
+}
+.platform_fitline .definition .text{
+    width: 525px;
+}
+.platform_fitline .definition .text h2{
+    margin-bottom: 10px;
+}
+.platform_fitline .definition .text h5{
+    font-family: "Manrope-Regular";
+    font-size: 18px;
+    margin-top: 35px;
+}
+.platform_fitline .definition .text  .outlinekk{
+    margin-top: 70px;
+}
+.platform_fitline .definition .picture{
+    border-radius: 20px;
+    background: url(./img/10.jpg);
+    background-size: cover;
+    width: 650px;
+    height: 434px;
+}
+.mechanism_of_work{
+    padding: 150px 0 140px;
+}
+.mechanism_of_work .heading{
+    display: flex;
+    justify-content: center;
+}
+.mechanism_of_work .instructions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.mechanism_of_work .instructions .number{
+    width: 60px;
+    height: 30px;
+    background-color: #3586ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Manrope-SemiBold";
+    font-size: 14px;
+}
+.mechanism_of_work .instructions h5{
+    font-family: "Manrope-SemiBold";
+    font-size: 18px;
+    margin: 25px 0 15px 0;
+}
+.mechanism_of_work .instructions p{
+    font-family: "Manrope-Regular";
+    font-size: 16px;
+}
+.mechanism_of_work .instructions .action{
+    margin-right: 35px;
+}
+.mechanism_of_work .instructions .action4{
+    margin-right: 0px;
+}
+.meal_plane .registration{
+    border-radius: 20px;
+    background: linear-gradient(to right,#e6ebf0 30%, #f0f3f5 70%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+.meal_plane .registration h6{
+    font-family: "Manrope-Regular";
+    font-size: 18px;
+    width: 620px;
+    margin: 30px 0 70px 0;
+    color: rgb(77, 76, 76);
+}
+.meal_plane .registration input {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+.name_telephone{
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input_field{
+    width: 45%;
+    display: flex;
+    align-items: start ;
+    flex-direction: column;
+}
+.input_field input{
+    width: 100%;
+    margin-top: 15px;
+}
+.meal_plane .registration .name_telephone .input_field p{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+}
+.navigation .icons .icon1 {
+    margin-left: 0px;
+}
+.inp_field3{
+    width: 100%;
+    margin-top: 35px;
+}
+.inp_field3 .E-mail{
+    width: 100%;
+}
+.goals{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.goals .vibors{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+.goals .vibors .vibor{
+    display: flex;
+    flex-direction: row;
+}
+.goals{
+    margin-top: 35px;
+}
+.goals p{
+    font-family: "Manrope-SemiBold";
+    font-size: 14px;
+    color: rgb(77, 76, 76);
+}
+.goals .vibors .vibor p{
+    color: black;
+}
+.goals .vibors .vibor input{
+    margin:0 5px 0 10px;
+}
+.goals .vibors .vibor .radio-1{
+    margin-left: 0px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.checkbox p{
+    font-family: "Manrope-SemiBold";
+    font-size: 14px;
+    color: rgb(77, 76, 76);
+    margin-left: 5px;
+}
+.goals .vibors .vibor input{
+    accent-color: #3586ff;
+    width: 20px;
+    height: 20px;
+}
+.checkbox input{
+    accent-color: #3586ff;
+    width: 20px;
+    height: 20px;
+}
+.registration .outlinekk{
+    margin: 65px 0 150px 110px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 65px 0;
+}
+.footer .protection{
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+}
+.footer .privacy_policy{
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    text-decoration: underline;
+}
+.footer .social_networks{
+    display: flex;
+    align-items: center;
+}
+.footer .social_networks img{
+    margin: 0 10px;
+}
+
+@media (max-width: 1024px) {
+    .container{
+        width: 950px !important;
+    }
+    .fitness_platform{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .fitness_platform .text h5 {
+        font-size: 24px;
+        width: 80%;
+    }
+    .fitness_platform .text {
+        align-items: center;
+        padding-top: 140px;
+        width: 70%;
+    }
+    .fitness_platform .picture img {
+        width: auto;
+        height: 500px;
+    }
+    .slider{
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    .slider .kinds {
+        width: 45%;
+        height: 500px;
+    }
+    .slider .kinds img{
+        width: auto;
+        height: 60%;
+    }
+    .slider .kinds4 {
+        margin: 100px 0 0 240px;
+    }
+    .slider .kinds h5 {
+        margin-top: 50px;
+    }
+    .free-training .free{
+        width: 100%;
+        height: 1366px;
+        background-position:center center;
+        background-size:cover;
+        background-size: 200px 100px;
+    }
+    .free-training .text h5 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 56px;
+        font-family: "Manrope-SemiBold";
+    }
+    .free-training .text {
+        padding: 0px 0 120px 75px;
+    }
+    .free-training .free {
+        width: 100%;
+        height: 1366px;
+        background-position: center 750px;
+        background-size: cover;
+        background-size: 970px 500px;
+    }
+    .online-course .course{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .online-course{
+        margin-top: 0px;
+    }
+    .course .stretching{
+        width: 70%;
+    }
+    .course{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .course .picture{
+        margin-top: 90px;
+    }
+    .text_img_block .coaches .img {
+        width: 110px;
+        height: 190px;
+        background-repeat: no-repeat !important;
+    }
+    .text_img_block .coaches {
+        width: 170px;
+    }
+    .text_img_block .coaches .img2 {
+        width: 190px !important;
+    }
+    .text_img_block .coaches .img3 {
+        width: 160px;
+    }
+    .sliders{
+        width: 70% !important;
+    }
+    .text_img_block {
+        margin: 80px 0 150px 0;
+    }
+    .text_img_block .coaches p {
+        font-size: 9px;
+    }
+    .platform_fitline .definition{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .platform_fitline .definition .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    .platform_fitline .definition .picture{
+        margin-top: 170px;
+    }
+    .platform_fitline .definition .picture {
+        width: 800px;
+        height: 500px;
+    }
+    .platform_fitline .definition .text h5 {
+        margin-top: 50px;
+    }
+    .platform_fitline .definition {
+        padding: 155px 0 80px 0;
+    }
+    .mechanism_of_work {
+        padding: 70px 0 140px;
+    }
+    .instructions{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .instructions .action{
+        width: 45%;
+        margin-bottom: 70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mechanism_of_work .instructions p {
+        font-family: "Manrope-Regular";
+        font-size: 20px;
+    }
+    .mechanism_of_work .instructions h5 {
+        font-size: 30px;
+    }
+    .registration .outlinekk {
+        margin: 200px 0 150px 110px;
+    }
+    .meal_plane .registration h6 {
+        margin: 30px 0 105px 0;
+    }
+}
+
+@media (max-width: 834px) {
+    .container{
+        width: 810px !important;
+    }
+    .fitness_platform .text h1 {
+        font-size: 45px;
+    }
+    .fitness_platform .text h5 {
+        font-size: 20px;
+    }
+    .fitness_platform .text {
+        padding-top: 100px;
+    }
+    .fitness_platform .picture img {
+        width: auto;
+        height: 500px;
+    }
+    .fitness_platform .picture {
+        padding-top: 100px;
+    }
+    .slider .kinds {
+        width: 45%;
+        height: 400px;
+    }
+    .slider {
+        margin-top: 150px;
+    }
+    .slider .kinds4 {
+        margin: 140px 0 0 240px;
+    }
+    .free-training .free {
+        width: 90% !important;
+        height: 1366px;
+        background-position: center 660px;
+        background-size: cover;
+        background-size: 1000px 500px;
+    }
+    .course .picture {
+        margin-top: 30px;
+    }
+    .sliders {
+        margin-top: 30px;
+    }
+    .text_img_block .coaches .img {
+        width: 140px;
+        height: 1000px;
+        background-repeat: no-repeat !important;
+        background-size: auto 140%;
+    }
+    .text_img_block .coaches .img1 {
+        margin-left: 50px;
+    }
+    .text_img_block .coaches .img3 {
+        margin-left: 30px;
+    }
+    .text_img_block .coaches h6 {
+        font-size: 14px;
+    }
+    .text_img_block .coaches {
+        width: 150px;
+        height: 205px;
+        margin-left: 40px;
+    }
+    .coaches1{
+        margin: 0px;
+    }
+    .course .stretching {
+        margin-left: 0px; 
+    }
+    .text_img_block {
+        margin: 40px 0 50px 0;
+    }    .text_img_block p {
+        width: 74%;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text_img_block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .text_img_block p{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .text_img_block .trainers{
+        display: flex;
+        flex-direction: row;
+    }
+    .text_img_block {
+        margin: 40px 0 150px 0;
+    }
+    .platform_fitline .definition {
+        padding: 70px 0 80px 0;
+    }
+    .platform_fitline .definition .text {
+        width: 70%;
+    }
+    .platform_fitline .definition .picture {
+        width: 70%;
+        height: 400px;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 180px;
+    }
+    .mechanism_of_work {
+        padding: 40px 0 140px;
+    }
+    .instructions .action {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .mechanism_of_work {
+        padding: 40px 0 30px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .meal_plane .registration h6 {
+        font-size: 20px;
+        width: 60%;
+        margin: 30px 0 70px 0;
+    }
+    .goals .vibors {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .goals .vibors .vibor{
+        margin-top: 20px;
+    }
+    .goals .vibors .vibor input {
+        margin: 0 5px 0 0;
+    }
+    .checkbox {
+        margin-left: 00px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    .meal_plane .registration {
+        padding-top: 50px;
+    }
+    .registration .outlinekk {
+        margin: 150px 0 170px 150px;
+    }
+}
+
+@media (max-width: 810px) {
+    .container{
+        width: 800px !important;
+    }
+    .fitness_platform .text h5 {
+        font-size: 18px;
+    }
+    .fitness_platform .text h1 {
+        font-size: 40px;
+    }.fitness_platform .text {
+        padding-top: 60px;
+    }
+    .fitness_platform .picture img {
+        width: auto;
+        height: 450px;
+    }
+    .slider {
+        margin-top: 100px;
+    }
+    .slider .kinds4 {
+        margin: 90px 0 0 240px;
+    }
+    .free-training .text h5 {
+        font-size: 19px;
+    }
+    .free-training .text {
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .free-training .free {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .free-training .free {
+        background-position: center 550px !important;
+        background-size: 1000px 470px;
+        background-position: center 660px;
+        height: 1080px;
+    }
+    .outlinekk {
+        margin-top: 100px;
+    }
+    .outlinekk {
+        margin-top: 20px;
+    }
+    .stretching .purchase h2 {
+        margin-top: 15px;
+    }
+    .online-course .picture img {
+        height: 300px;
+        width: auto;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .free .text .outlinekk{
+        margin-top: 140px;
+    }
+    .information {
+        margin-top: 20px;
+    }
+    .text_img_block {
+        margin: 40px 0 50px 0;
+    }
+    .platform_fitline .definition {
+        padding: 50px 0 80px 0;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 130px;
+    }
+    .mechanism_of_work .instructions {
+        margin-top: 40px;
+    }
+    .mechanism_of_work .instructions p {
+        font-size: 19px;
+    }
+    .registration .outlinekk {
+        margin: 150px 0 70px 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 95% !important;
+    }
+    .navigation .section a {
+        margin-right: 10px;
+    }
+    .fitness_platform .text h5 {
+        font-size: 17px;
+    }
+    .fitness_platform .text h1 {
+        font-size: 40px;
+    }
+    .fitness_platform .text {
+        width: 90%;
+    }
+    .slider {
+        margin-top: 60px;
+    }
+    .free-training {
+        margin-top: 70px;
+    }
+    .free-training .free {
+        background-size: 1000px 450px;
+    }
+    .course .stretching {
+        width: 80%;
+    }
+    .online-course .picture img {
+        height: 270px;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 80px;
+    }
+    .mechanism_of_work {
+        padding: 20px 0 30px;
+    }
+    .instructions .action {
+        width: 69%;
+    }
+    .registration .outlinekk {
+        margin: 95px 0 70px 150px;
+    }
+    .footer {
+        padding: 45px 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .container{
+        width: 390px !important;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .navigation .section a {
+        font-size: 10px;
+    }
+    .navigation .icons .icon {
+        padding: 1px 5px;
+        margin-left: 10px;
+    }
+    .icon svg{
+        width: 10px;
+        height: 10px;
+    }
+    .fitness_platform .text {
+        padding-top: 30px;
+        width: 100%;
+    }
+    .fitness_platform .text h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    button {
+        width: 160px;
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    .fitness_platform .text h5 {
+        font-size: 14px;
+    }
+    .outlinekk {
+        width: 160px;
+    }
+    .fitness_platform .picture img {
+        width: auto;
+        height: 310px;
+    }
+    .fitness_platform .picture {
+        padding-top: 80px;
+    }
+    .outlinekk {
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .slider .kinds {
+        width: 60%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .slider .kinds4 {
+        margin: 0px;
+    }
+    .slider .kinds img {
+        width: auto;
+        height: 76%;
+    }
+    .slider .kinds h5 {
+        font-family: "Manrope-SemiBold";
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    .free-training .text h5 {
+        font-size: 15px;
+        width: 50%;
+    }
+    .free .text .outlinekk {
+        margin-top: 70px;
+    }
+    .free-training .free {
+        background-position: -470px 300px !important;
+        height: 736px;
+    }
+    .free-training .text {
+        width: 100%;
+        padding: 0px
+    }
+    .free-training .text h5 {
+        font-size: 15px;
+        width: 80%;
+    }
+    .course .stretching {
+        margin-top: 30px;
+    }
+    .course .stretching h5 {
+        font-size: 14px;
+    }
+    .course .stretching h6 {
+        font-size: 14px;
+    }
+    .information p {
+        font-size: 10px;
+    }
+    .information .inf {
+        padding: 10px 5px;
+        width: 160px;
+        height: 30px;
+    }
+    .information .inf img {
+        width: 12px;
+        height: 12px;
+    }
+    .information {
+    justify-content: center;
+    }
+    .online-course .picture img {
+        height: 170px;
+    }
+    #inp1:checked ~ #button1, #inp2:checked ~ #button2, #inp3:checked ~ #button3 {
+        padding: 5px 5px;
+        margin-right: 10px;
+        width: 100px;
+        font-size: 12px;
+    }
+    .text_img_block p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .text_img_block {
+        margin: 7px 0 50px 0;
+    }
+    .text_img_block .coaches {
+        width: 120px;
+        height: 120px;
+        margin-left: 10px;
+    }
+    .text_img_block .coaches h6 {
+        font-size: 10px;
+    }
+    .text_img_block .coaches p {
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .text_img_block .coaches .img {
+        width: 50px;
+        height: 200px;
+        background-size: auto 150%;
+        margin: 5px;
+    }
+    .text_img_block .coaches .img2 {
+        margin-left: 100px;
+    }
+    .text_img_block .coaches .img3 {
+        margin-left: 30px;
+        width: 100px;
+    }
+    .platform_fitline .definition .text h5 {
+        font-size: 15px;
+    }
+    .platform_fitline .definition .text {
+        width: 90%;
+    }
+    .platform_fitline .definition .text h5 {
+        margin-top: 20px;
+    }
+    .platform_fitline .definition .text .outlinekk {
+        margin-top: 40px;
+    }
+    .platform_fitline .definition .picture {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    .platform_fitline .definition {
+        padding: 50px 0 20px 0;
+    }
+    .mechanism_of_work .instructions {
+        margin-top: 20px;
+    }
+    .mechanism_of_work .instructions .action {
+        margin-right: 0px; 
+    }
+    .instructions .action {
+        width: 90%;
+    }
+    .mechanism_of_work .instructions p {
+        font-size: 14px;
+    }
+    .mechanism_of_work .instructions h5 {
+        font-size: 18px;
+        margin: 15px 0 5px 0;
+    }
+    .mechanism_of_work .instructions .number {
+        width: 60px;
+        height: 20px;
+    }
+    .meal_plane .registration {
+        padding-top: 10px;
+    }
+    .meal_plane .registration h6 {
+        font-size: 15px;
+        width: 95%;
+        margin: 10px 0 30px 0;
+    }
+    .name_telephone {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }   
+    .meal_plane .registration input {
+        padding: 10px;
+    }
+    .input_field {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .meal_plane .registration h6 {
+        margin: 10px 0 10px 0;
+    }
+    .inp_field3 {
+        margin-top: 0px; 
+    }
+    .goals {
+        margin-top: 15px;
+    }
+    .checkbox {
+        margin-right: 0px;
+    }
+    .registration .outlinekk {
+        margin: 50px 0 30px 95px;
+    }
+    .footer .protection {
+        font-size: 10px;
+    }
+    .footer .social_networks img {
+        width: 10px;
+        height: 10px;
+    }
+    .footer .social_networks img {
+        width: 16px;
+        height: 16px;
+    }
+    .footer .privacy_policy {
+        margin-left: 10px;
+        font-size: 10px;
+        text-align: end;
+    }
+    .navigation .icons .icon1 {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container{
+        width: 95% !important;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .fitness_platform .picture {
+        padding-top: 130px;
+    }
+    .outlinekk {
+        margin-top: 60px;
+    }
+    .slider .kinds {
+        width: 70%;
+        height: 240px;
+    }
+    .free-training {
+        margin-top: 50px;
+    }
+    .free-training .free {
+        background-position: -410px 390px !important;
+        height: 844px;
+        background-size: 900px 430px;
+    }
+    .information {
+        flex-direction: column;
+    }
+    .information .inf {
+        margin: 10px 0 0 50px;
+        width: 60%;
+    }
+    .purchase .outlinekk{
+        margin-top: 20px;
+    }
+    .text_img_block .coaches {
+        width: 100px;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 130px;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    .platform_fitline .definition .text h5 {
+        margin-top: 40px;
+    }
+    .instructions .action {
+        width: 60%;
+    }
+    .meal_plane .registration h6 {
+        margin: 60px 0 60px 0;
+    }
+    .footer {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .container{
+        width: 95% !important;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .navigation .section a {
+        margin-right: 5px;
+    }
+    .navigation .icons .icon {
+        margin-left: 5px;
+    }
+    .fitness_platform .text {
+        padding-top: 27px;
+        width: 90%;
+    }
+    .fitness_platform .text h1 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .fitness_platform .text h5 {
+        font-size: 13px;
+        width: 100%;
+    }
+    .outlinekk {
+        margin-top: 40px;
+    }
+    .fitness_platform .picture img {
+        width: auto;
+        height: 280px;
+    }
+    .fitness_platform .picture {
+        padding-top: 70px;
+    }
+    .slider {
+        margin-top: 20px;
+    }
+    .slider .kinds {
+        width: 50%;
+        height: 190px;
+    }
+    .coirse_selection {
+        margin: 150px 0 100px 0;
+    }
+    .free .text .outlinekk {
+        margin-top: 40px;
+    }
+    .free-training .free {
+        background-position: -410px 250px !important;
+        background-size: 900px 410px;
+    }
+    .course .stretching h5 {
+        font-size: 12px;
+    }
+    .course .stretching h6 {
+        font-size: 13px;
+    }
+    .information {
+        flex-direction: row;
+    }
+    .information .inf1{
+        display: none;
+    }
+    .information .inf {
+        margin: 0px;
+    }
+    button {
+        width: 120px;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    .outlinekk {
+        width: 120px;
+    }
+    .online-course .picture img {
+        height: 150px;
+    }
+    .course .picture {
+        margin-top: 20px;
+    }
+    .sliders {
+        margin-top: 20px;
+    }
+    .text_img_block p {
+        font-size: 12px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .platform_fitline .definition {
+        padding: 20px 0 20px 0;
+    }
+    .platform_fitline .definition .text h5 {
+        font-size: 13px;
+    }
+    .platform_fitline .definition .text h5 {
+        margin-top: 15px;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 90px;
+    }
+    .mechanism_of_work .instructions p {
+        font-size: 13px;
+    }
+    .instructions .action {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .mechanism_of_work {
+        padding: 20px 0 130px;
+    }
+    .meal_plane .registration h6 {
+        font-size: 13px;
+        width: 90%;
+        margin: 10px 0 20px 0;
+    }
+    .input_field input {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .meal_plane .registration .name_telephone .input_field p {
+        font-size: 12px;
+    }
+    .goals .vibors .vibor {
+        margin-top: 10px;
+    }
+    .goals .vibors .vibor input {
+        width: 15px;
+    }
+    .checkbox input {
+        width: 15px;
+        margin-right: 5px;
+    }
+    .checkbox p {
+        margin-left: -3px;
+    }
+    .registration .outlinekk {
+        margin: 50px 0 80px 95px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 100% !important;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .navigation {
+        margin-top: 15px;
+    }
+    .logo img {
+        width: 45px;
+    }
+    .navigation .section a {
+        font-size: 9px;
+    }
+    .navigation .icons .icon {
+        padding: 0px 5px;
+        margin-left: 10px;
+    }
+    .icon svg {
+        width: 7px;
+        height: 10px;
+    }
+    .navigation .icons .icon1 {
+        margin-left: 0px !important;
+    }
+    .fitness_platform .text {
+        padding-top: 15px;
+        width: 80%;
+    }
+    .fitness_platform .text h1 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .fitness_platform .text h5 {
+        font-size: 11px;
+    }
+    .navigation .icons .icon {
+        margin-left: 5px;
+    }
+    .outlinekk {
+        margin-top: 50px;
+    }
+    .fitness_platform .picture {
+        padding-top: 50px;
+    }
+    .fitness_platform .picture img {
+        height: 220px;
+    }
+    .fitness_platform .text {
+        padding-top: 40px;
+    }
+    .coirse_selection {
+        margin: 90px 0 100px 0;
+    }
+    .slider .kinds {
+        width: 50%;
+        height: 160px;
+    }
+    .coirse_selection {
+        margin: 90px 0 80px 0;
+    }
+    .free-training .text h5 {
+        font-size: 13px;
+    }
+    .free-training .free {
+        background-position: -30px 380px !important;
+        background-size: 320px 160px;
+        height: 568px;
+    }
+    .free-training .text h5 {
+        margin-top: 50px;
+    }
+    .course .stretching h5 {
+        font-size: 11px;
+    }
+    .course .stretching h6 {
+        font-size: 11px;
+    }
+    .information {
+        margin-top: 10px;
+    }
+    .information .inf {
+        padding: 1px 0px;
+        width: 80%;
+        height: 20px;
+    }
+    .purchase button {
+        width: 100px;
+        padding: 3px 0;
+        font-size: 10px;
+    }
+    .outlinekk {
+        width: 100px;
+    }
+    .course .picture {
+        margin-top: 15px;
+    }
+    .online-course .picture img {
+        height: 140px;
+    }
+    .sliders {
+        margin-top: 15px;
+    }
+    #inp1:checked ~ #button1, #inp2:checked ~ #button2, #inp3:checked ~ #button3 {
+        padding: 3px 5px;
+        width: 80px;
+        font-size: 10px;
+    }
+    .text_img_block p {
+        font-size: 10px;
+    }
+    .text_img_block .coaches .img3 {
+        margin-left: 10px !important;
+        width: 50px;
+    }
+    .text_img_block .coaches {
+        width: 120px;
+        height: 110px;
+    }
+    .course .stretching h6 {
+        margin-top: 15px;
+    }
+    .text_img_block .coaches {
+        width: 90px;
+        height: 100px;
+    }
+    .text_img_block .coaches .img2 {
+        margin-left: 120px;
+    }
+    .text_img_block .coaches .img3 {
+        margin-left: 50px;
+    }
+    .text_img_block .coaches .img1 {
+        margin-left: 25px;
+    }
+    .platform_fitline .definition .text h5 {
+        margin-top: 11px;
+    }
+    .platform_fitline .definition .text h5 {
+        font-size: 11px;
+    }
+    .platform_fitline .definition .text .outlinekk {
+        margin-top: 20px;
+    }
+    .platform_fitline .definition .picture {
+        margin-top: 90px;
+        width: 90%;
+        height: 200px;
+    }
+    .mechanism_of_work .instructions h5 {
+        margin: 10px 0 5px 0;
+        font-size: 15px;
+    }
+    .mechanism_of_work .instructions p {
+        font-size: 10px;
+    }
+    .mechanism_of_work .instructions .action {
+        width: 80%;
+    }
+    .mechanism_of_work {
+        padding: 20px 0 15px;
+    }
+    .meal_plane .registration h6 {
+        font-size: 12px;
+    }
+    .meal_plane .registration input {
+        padding: 5px;
+    }
+    .goals {
+        margin-top: 0px;
+    }
+    .goals p {
+        font-size: 12px;
+    }
+    .goals .vibors {
+        margin-top: 0px;
+    }
+    .goals .vibors .vibor input {
+        width: 12px;
+    }
+    .checkbox p {
+        font-size: 12px;
+    }
+    .checkbox {
+        margin-top: 5px;
+    }
+    .registration .outlinekk {
+        margin: 40px 0 15px 105px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+    .footer .social_networks img {
+        width: 13px;
+    }
+    .footer .protection {
+        font-size: 8px;
+    }
+    .footer .privacy_policy {
+        font-size: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
